@@ -1,0 +1,20 @@
+# Source files (not needed in published package)
+src/
+examples/
+test/
+__tests__/
+
+# Development files
+jest.config.js
+tsconfig.json
+pnpm-lock.yaml
+
+# Git files
+.git/
+.gitignore
+
+# Development dependencies
+node_modules/
+
+# Build artifacts (keep dist/ for published package)
+*.tsbuildinfo
